@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: url('google-img.jpg') no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    background-color: #00000085;
+    background-blend-mode: darken;
+    font-family: 'Philosopher', sans-serif;
+}
+
+input {
+    background: #00000085;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 44px;
+    padding: 4px 10px;
+    border: 1px solid #ccc;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+footer {
+    background: transparent;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #fff;
+}
+
+.footer-text {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.author-name {
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+
+.author-name:hover {
+    margin: auto 8px;
+    padding: 3px 8px;
+    background: #2f7332;
+    color: #fff;
+    font-weight: 700;
+    transition: all 0.2s ease-in;
+}
+
+@media only screen and (max-width: 767px) {
+    label {
+        font-size: 1.5rem;
+    }
+}

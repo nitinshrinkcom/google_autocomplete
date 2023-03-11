@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Google autocomplete searchbar by Nitin Verma">
+    <meta property="og:type" content="website">
+    <meta name="author" content="NITIN VERMA">
+    <meta property="og:description" content="Google Autcomplete searchbar designed in HTML,CSS and Javascript by Nitin Verma">
+    <meta name="description" content="Google Autcomplete searchbar designed in HTML,CSS and Javascript by Nitin Verma.">
+    <meta name="keywords" content="google, autocomplete, searchbar, github, meta tags, html, css, javascript, meta keywords, SEO, search engine optimization">
+    <meta name="robots" content="noindex, follow">
+
+    <title>Codewithnitzz - Google AutoComplete Searchbar</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="g_favicon.ico" type="image/x-icon">
+
+</head>
+
+<body onload="initialize()">
+    <form class="form-address" id="address">
+        <div class="flex-container c-1column" id="locationField">
+            <label>GOOGLE AUTOCOMPLETE</label>
+            <input class="flex-item" id="autocomplete" placeholder="Search Address, City or Country.." onFocus="geolocate()" type="text"></input>
+        </div>
+    </form>
+    <footer>
+        <p class="footer-text">&copy; Designed by <a href="https://github.com/nitinshrinkcom" target="_blank" class="author-name">Nitin Verma </a>&copy;</p>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGMYS-RP5r37u2t6ToQDKxyjerY-jDZj8&amp;libraries=places"></script>
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
